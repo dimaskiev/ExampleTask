@@ -1,0 +1,17 @@
+/*common*/
+.block {
+  width: 320px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+/*header*/
+/*main*/
+/*footer*/
+.footer__block {
+  display: flex;
+  flex-direction: row;
+}
+.photo__thumb--img {
+  width: 80px;
+  height: 50px;
+}

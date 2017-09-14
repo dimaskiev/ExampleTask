@@ -1,0 +1,37 @@
+/*Fonts*/
+/*Variables*/
+/*Color*/
+/*layout*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  font-family: openSans;
+  background-color: $white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: inline-flex;
+}
