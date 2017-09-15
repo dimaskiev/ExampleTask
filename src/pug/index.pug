@@ -38,13 +38,14 @@ html(lang='ru')
 							img.photo__thumb--img(src="images/thumb.png" srcset="images/thumb@2x.png 2x, images/thumb@3x.png 3x")
 					.row__block
 						.banner
-							img.banner--img
+							img.banner--img(src="images/banner__320.png")
 							img.photos__thumb--img
 					.row__block
-						.photo__thumb.date
-							span.date__thumb
-							img.date__thumb--img
+						.photo__thumb.date_thumb
+							span.date__thumb 20 сентября
+							img.date__thumb--img(src="images/daterow.png")
 						.photo__thumb
+							img.photo__thumb--img(src="images/thumb2.png" srcset="images/thumb2@2x.png 2x, images/thumb2@3x.png 3x")
 						.photo__thumb
 							img.photo__thumb--img(src="images/thumb2.png" srcset="images/thumb2@2x.png 2x, images/thumb2@3x.png 3x")
 						.photo__thumb
@@ -54,11 +55,11 @@ html(lang='ru')
 							img.photo__thumb--img(src="images/thumb.png" srcset="images/thumb@2x.png 2x, images/thumb@3x.png 3x")
 						.photo__thumb
 							img.photo__thumb--img(src="images/thumb.png" srcset="images/thumb@2x.png 2x, images/thumb@3x.png 3x")
-						.photo__thumb.date
-							span.date__thumb
-							img.date__thumb--img
+						.photo__thumb.date_thumb
+							span.date__thumb 19 сентября
+							img.date__thumb--img(src="images/daterow.png")
 						.photo__thumb
-							mg.photo__thumb--img(src="images/thumb.png" srcset="images/thumb@2x.png 2x, images/thumb@3x.png 3x")
+							img.photo__thumb--img(src="images/thumb.png" srcset="images/thumb@2x.png 2x, images/thumb@3x.png 3x")
 					.row__block
 						.photo__thumb
 							img.photo__thumb--img(src="images/thumb3.png" srcset="images/thumb3@2x.png 2x, images/thumb3@3x.png 3x")
@@ -73,11 +74,11 @@ html(lang='ru')
 							img.photo__thumb--img(src="images/thumb2.png" srcset="images/thumb2@2x.png 2x, images/thumb2@3x.png 3x")
 				.footer__block
 					.nav
-						span.nav__prev Страницы
+						span.nav__prev.nav__text Страницы
 					.nav
 						nav.block__nav
 							ul.list__nav-block
-								li.list__nav-item
+								li.list__nav-item.item--active
 									a.nav__item-link 1
 								li.list__nav-item
 									a.nav__item-link 2
@@ -86,4 +87,4 @@ html(lang='ru')
 								li.list__nav-item
 									a.nav__item-link 4																											
 					.nav
-						a.nav__nex Следующая
+						a.nav__nex.nav__text Следующая

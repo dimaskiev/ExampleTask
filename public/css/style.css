@@ -1,6 +1,3 @@
-/*Fonts*/
-/*Variables*/
-/*Color*/
 /*layout*/
 * {
   margin: 0;
@@ -11,7 +8,7 @@ html,
 body {
   height: 100%;
   font-size: 14px;
-  font-family: openSans;
+  font-family: 'Noto Sans', sans-serif;
   background-color: $white;
 }
 ul {
